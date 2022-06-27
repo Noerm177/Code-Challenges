@@ -14,7 +14,7 @@
 """""
 def fibonacci(n):
     ls = []
-    n1, n2, next = 0, 0, o
+    n1, n2, next = 0, 0, 0
     for i in range(0, n):
         next = n1 + n2
         ls.append(next)
@@ -31,4 +31,4 @@ def fibonacci(n):
         a, b = b, a + b
     return fibo
 
-print(fibonacci(4))
+print(fibonacci(10))

@@ -1,4 +1,7 @@
 public class Vowel {
+    public static void main(String[] args) {
+        
+    }
     
     public static int getVowel(String s) {
         int vowels = 0;

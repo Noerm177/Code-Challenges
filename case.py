@@ -9,7 +9,7 @@ def case_string(s):
         if index == 0 or s[index-1] == " ":
             new_s += s[index].upper()
         else:
-            new_s += i.lower()
+            new_s += s[index].lower()
     return new_s
 
 n = "how cAn mirror BE"

@@ -4,7 +4,7 @@ public class AbbreviateWord {
     }
     
     public static String abbreviate(String name){
-        String[] initials = name.split(" ");
+        String[] initials = name.split(" ");// Creamos un arreglo de strings separados
         return (initials[0].charAt(0) +"."+ initials[1].charAt(0)).toUpperCase();
     }
 }

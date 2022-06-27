@@ -1,9 +1,7 @@
 #Count the ocurrences on string
 #
-
 def count_s(string):
-    string.lower()
-    string = string.split(" ") # Volverlo lista separada
+    string = string.lower().split(" ") # Volverlo lista separada
     W_count = {} # En diccionario lo guardamos
 
     for i in string:

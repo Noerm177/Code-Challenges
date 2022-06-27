@@ -1,7 +1,7 @@
 def abbrev_name(name):
     first_name, second_name  = name.upper().split(" ")
     print(first_name[0] +"."+second_name[0])
-    
+    #acceder a la primera letra de la cadena separada
 name = "sam Harris"
 abbrev_name(name)
  
